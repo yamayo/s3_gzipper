@@ -1,0 +1,19 @@
+<html>
+  <head>
+  <script src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"></script>
+  <script>
+    $.ajax({
+      type: 'GET',
+      url: 'https://s3-ap-northeast-1.amazonaws.com/yamato-test/sample',
+      success: function(data) {
+        console.log(data);
+      }
+    });
+  </script>
+  </head>
+<body>
+  <h2>compress test</h2>
+</body>
+
+</html>
+
